@@ -261,8 +261,8 @@ return [
     'logout_url' => 'admin/logout',
     'login_url' => 'admin/login',
     'register_url' => 'admin/register',
-    'password_reset_url' => 'password/reset',
-    'password_email_url' => 'password/email',
+    'password_reset_url' => null,
+    'password_email_url' => 'admin/password/email',
     'profile_url' => false,
     'disable_darkmode_routes' => false,
 
